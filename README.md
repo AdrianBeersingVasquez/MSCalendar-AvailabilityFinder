@@ -6,9 +6,9 @@ MSCalendar-AvailabilityFinder is a Python script that connects to the Microsoft 
 
 - **Authentication with Microsoft Graph API**: Securely access your calendar data using OAuth2.
 - **Time Zone Conversion**: Convert event times to a specified time zone for easier scheduling.
-- **Event Filtering**: Automatically filter out events that fall outside of sender's and recipient's working hours.
+- **Working Hours Filtering**: Automatically filter out events that fall outside of sender's and recipient's working hours.
 - **Weekend Filtering**: Remove weekend slots for both sender and receiver.
-- **Fancy Printing**: Print the schedule in a readable format.
+- **Fancy Print**: Print the schedule in a readable format.
 
 ## Installation
 
