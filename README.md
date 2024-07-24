@@ -58,7 +58,7 @@ MSCalendar-AvailabilityFinder is a Python script that connects to the Microsoft 
 ## Notes
 
 - Ensure to modify the credentials and time ranges as per your requirements.
-- This script is currently configured to convert to the the **'America/New_York** time zone, but it can be easily adapted to other time zones by changing **client_timezone**.
+- This script is currently configured to convert to the the **America/New_York** time zone, but it can be easily adapted to other time zones by changing **client_timezone**.
 
 ## Contributing
 
