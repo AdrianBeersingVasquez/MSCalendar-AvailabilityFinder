@@ -40,13 +40,10 @@ MSCalendar-AvailabilityFinder is a Python script that connects to the Microsoft 
     end_date = start_date + timedelta(days=5)
     ```
 
-3. **Fetch and Process Events**:
-    The script will authenticate with the Microsoft Graph API, fetch events, filter them based on sender and receiver's working hours, and displays available time slots:
+3. **Enter Email Address of the Calendar of Interest**:
+    Replace `'email@example.com'` with the email address of the person whose calendar you are scheduling for:
     ```python
-    events_df = fetch_events(start_date, end_date)
-    filtered_events_df = filter_events_by_working_hours(events_df)
-    availability_df = find_availability(filtered_events_df)
-    availability_df = convert_to_tz(availability_df, 'America/New_York')
+    schedule = account.schedule(resource='email@example.com')
     ```
 
 4. **Display the Schedule**:
